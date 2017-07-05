@@ -1,0 +1,28 @@
+{
+  "name": "require-graphqls",
+  "version": "0.0.1",
+  "description": "Allows import of .graphqls files as strings",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **.js",
+    "precommit": "yarn lint && yarn test",
+    "test": "mocha tests/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/industrial-cloud/require-graphqls.git"
+  },
+  "author": "avalla <valla.andrea@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/industrial-cloud/require-graphqls/issues"
+  },
+  "homepage": "https://github.com/industrial-cloud/require-graphqls#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1",
+    "mocha": "^3.4.2"
+  }
+}
